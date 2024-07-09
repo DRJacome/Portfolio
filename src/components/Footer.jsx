@@ -11,7 +11,7 @@ export const Footer = () => {
                         GitHub
                         <img
                             className='github'
-                            src='src/assets/rrss/github-logo.png'
+                            src='./assets/rrss/github-logo.png'
                         />
                     </a>
                 </li>
@@ -20,7 +20,7 @@ export const Footer = () => {
                         className='rrss-link'
                         href='https://www.linkedin.com/in/david-rodriguez-jacome/'>
                         LinkedIn
-                        <img src='src/assets/rrss/linkedin-logo.png' />
+                        <img src='./assets/rrss/linkedin-logo.png' />
                     </a>
                 </li>
             </ul>
