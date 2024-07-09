@@ -1,0 +1,64 @@
+{
+    "proyectos": [
+        {
+            "id": 1,
+            "titulo": "Lista de tareas",
+            "img": "./assets/proyectos/tareas.png",
+            "url": "https://drjacome.github.io/lista-tareas/"
+        },
+        {
+            "id": 2,
+            "titulo": "Buscador de GIFs (API)",
+            "img": "./assets/proyectos/gifs.png",
+            "url": "https://drjacome.github.io/buscador-gifs/"
+        },
+        {
+            "id": 3,
+            "titulo": "Juego de adivinar parejas",
+            "img": "./assets/proyectos/parejas.png",
+            "url": "https://drjacome.github.io/juego-parejas/"
+        },
+        {
+            "id": 4,
+            "titulo": "Colección de superhéroes",
+            "img": "./assets/proyectos/superheroes.png",
+            "url": "https://drjacome.github.io/superheroes"
+        },
+        {
+            "id": 5,
+            "titulo": "Menú de restaurante",
+            "img": "./assets/proyectos/menu.png",
+            "url": "https://drjacome.github.io/menu-comida/"
+        },
+        {
+            "id": 6,
+            "titulo": "Ruleta de la fortuna",
+            "img": "./assets/proyectos/ruleta.png",
+            "url": "https://drjacome.github.io/ruleta-fortuna/"
+        },
+        {
+            "id": 7,
+            "titulo": "App calendario",
+            "img": "./assets/proyectos/coming-soon.png",
+            "url": "https://drjacome.github.io/calendario-frontend/"
+        },
+        {
+            "id": 8,
+            "titulo": "Buscador de películas (API)",
+            "img": "./assets/proyectos/coming-soon.png",
+            "url": ""
+        },
+        {
+            "id": 9,
+            "titulo": "Carrito de compras (API)",
+            "img": "./assets/proyectos/coming-soon.png",
+            "url": ""
+        },
+        {
+            "id": 10,
+            "titulo": "Más próximamente...",
+            "img": "./assets/proyectos/coming-soon.png",
+            "url": ""
+        }
+    ]
+}
