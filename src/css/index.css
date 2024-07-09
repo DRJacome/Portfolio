@@ -21,15 +21,15 @@ li {
 }
 
 #fotoPerfil {
-    max-width: 100px;
-    border-radius: 10px;
+    max-width: 120px;
+    border-radius: 20%;
 }
 
 .titulo {
     margin: 0 3%;
 }
 
-.titulo > h1 {
+.titulo > h1 ~ h2 {
     text-align: center;
 }
 
@@ -42,11 +42,12 @@ li {
 }
 
 .menu-nav {
+    margin-top: 2%;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 70%;
+    width: 50%;
 }
 
 .menu-nav > .link {
