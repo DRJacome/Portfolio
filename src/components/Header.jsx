@@ -5,12 +5,12 @@ export const Header = () => {
         <>
             <header>
                 <div className='contenedor-header'>
-                    <img
+                    <img  className="animate__animated animate__fadeInRight"
                         id='fotoPerfil'
                         src={`./assets/${fotoPerfil}.jpg`}
                         alt='Foto de perfil'
                     />
-                    <div className='titulo'>
+                    <div className='titulo animate__animated animate__fadeInLeft'>
                         <h1>Hola! Soy David Rodríguez</h1>
                         <hr />
                         <h2>Bienvenido a mi Portfolio</h2>

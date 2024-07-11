@@ -101,13 +101,14 @@ li {
     transform: translatey(-10px);
     box-shadow: 0 4px 12px rgb(255, 255, 255);
 }
+
 /* FOOTER */
 
 footer {
     height: 300px;
 }
 
-.rrss {
+.contenedor-rrss {
     display: flex;
     max-width: 100%;
     align-items: center;
@@ -164,4 +165,19 @@ footer {
 .scroll-inicio:hover {
     transform: translateY(-5px);
     background-color: #f0f0f0;
+}
+
+/* PÁGINA EN CONSTRUCCIÓN */
+
+.working-on {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.working-on > img {
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 20px;
 }

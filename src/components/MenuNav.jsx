@@ -1,28 +1,37 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const MenuNav = () => {
+    const navigate = useNavigate();
+
     const handleDesplazar = (evento) => {
         evento.preventDefault();
-        const contactoSection = document.getElementById("contacto");
-        if (contactoSection) {
-            contactoSection.scrollIntoView({
-                behavior: "smooth",
-            });
-        }
+        navigate("/", { replace: true });
+        setTimeout(() => {
+            const footerContacto = document.getElementById("contacto");
+            if (footerContacto) {
+                footerContacto.scrollIntoView({
+                    behavior: "smooth",
+                });
+            }
+        }, 100);
     };
     return (
-        <nav className='contenedor-nav'>
+        <nav className='contenedor-nav animate__animated animate__fadeInLeft'>
             <section className='menu-nav'>
                 <Link className='link' to='/'>
-                    🏠 Home
+                    Home
                 </Link>
                 |
                 <Link className='link' to='/about'>
-                    ⛹ Sobre mí
+                    Sobre mí
                 </Link>
                 |
-                <Link className='link' to='/contact' onClick={handleDesplazar}>
-                    ✉ Contacto
+                <Link className='link' to='/cv'>
+                    CV
+                </Link>
+                |
+                <Link className='link' to='/' onClick={handleDesplazar}>
+                    RRSS
                 </Link>
             </section>
         </nav>
