@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <footer
             id='contacto'
-            className='animate__animated animate__fadeInRight'>
+            className='animate__animated animate__zoomIn'>
             <h2>Mis redes:</h2>
             <ul className='contenedor-rrss animate__animated animate__fadeInDown'>
                 <li className='logo'>

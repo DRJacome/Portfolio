@@ -45,8 +45,8 @@
         {
             "id": 8,
             "titulo": "Buscador de películas (API)",
-            "img": "./assets/proyectos/coming-soon.png",
-            "url": ""
+            "img": "./assets/proyectos/buscador-peliculas.png",
+            "url": "https://drjacome.github.io/buscador-peliculas/"
         },
         {
             "id": 9,
