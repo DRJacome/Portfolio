@@ -51,8 +51,8 @@
         {
             "id": 9,
             "titulo": "Carrito de compras (API)",
-            "img": "./assets/proyectos/coming-soon.png",
-            "url": ""
+            "img": "./assets/proyectos/shopping-cart.png",
+            "url": "https://drjacome.github.io/carrito-compra/"
         },
         {
             "id": 10,
